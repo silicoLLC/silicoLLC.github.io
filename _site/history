@@ -1,0 +1,82 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install -y nginx ufw fail2ban python-cert )
+    4  add-apt-repository -y -u ppa:certbot/certbot
+    5  sudo add-apt-repository -y -u ppa:certbot/certbot
+    6  sudo apt-get install -y nginx ufw fail2ban python-certbot-nginx git libcurl4-openssl-dev
+    7  top -n 1 -b | grep nginx
+    8  ip addr
+    9  cat /etc/nginx/nginx.conf 
+   10  cat /etc/nginx/sites-available/default
+   11  ls -l /var/www/
+   12  ls -l /var/www/html/
+   13  git clone https://github.com/silicoLLC/silicoLLC.github.io
+   14  ls -l silicoLLC.github.io/
+   15  sudo apt-get install -y nginx ufw fail2ban python-certbot-nginx git libcurl4-openssl-dev ruby-full 
+   16  sudo gem install bundler jekyll
+   17  sudo apt-get install -y nginx ufw fail2ban python-certbot-nginx git libcurl4-openssl-dev ruby-full make
+   18  sudo gem install bundler jekyll
+   19  sudo apt-get install -y nginx ufw fail2ban python-certbot-nginx git libcurl4-openssl-dev ruby-full make gcc
+   20  sudo gem install bundler jekyll
+   21  sudo apt-get install -y nginx ufw fail2ban python-certbot-nginx git libcurl4-openssl-dev ruby-full make gcc g++
+   22  sudo gem install bundler jekyll
+   23  cd silicoLLC.github.io/
+   24  jekyll b
+   25  ls -l _site/
+   26  vi _site/CNAME 
+   27  ls -l
+   28  ls -l /var/www/html/
+   29  cat /etc/nginx/sites-available/default
+   30* less /etc/nginx/conf.d/
+   31  vi /etc/nginx/nginx.conf 
+   32  sudo vi /etc/nginx/nginx.conf 
+   33  rm -fr /var/www/html
+   34  sudo rm -fr /var/www/html
+   35  ln -s /home/ubuntu/silicoLLC.github.io/_site /var/www/html 
+   36  sudo ln -s /home/ubuntu/silicoLLC.github.io/_site /var/www/html 
+   37  ip addr
+   38  sudo systemctl restart nginx
+   39  sudo vi /etc/nginx/nginx.conf 
+   40  sudo systemctl restart nginx
+   41  sudo certbot --nginx -n --preferred-challenges http-01 -d silico.org,www.silico.org -m daniel@silico.org --agree-tos
+   42  dig silico.org
+   43  sudo certbot --nginx -n --preferred-challenges http-01 -d silico.org,www.silico.org -m daniel@silico.org --agree-tos
+   44  sudo certbot --nginx -n --preferred-challenges http-01 -d silico.org -m daniel@silico.org --agree-tos
+   45  ls -l
+   46  vi _config.yml 
+   47  jekyll b'
+   48  jekyll b
+   49  jekyll clean
+   50  jekyll b
+   51  vi _config.yml 
+   52  ls -l /var/www/
+   53  ls -l
+   54  vi _includes/header.html 
+   55  vi _includes/js.html 
+   56  vi _config.yml 
+   57  jekyll clean && jekyll b
+   58  sudo vi /etc/nginx/nginx.conf 
+   59* vi 
+   60  sudo vi /etc/nginx/nginx.conf 
+   61  ufw 
+   62  ufw status
+   63  sudo ufw status
+   64  sudo systemctl restart nginx
+   65  sudo vi /etc/nginx/nginx.conf 
+   66  cat /var/log/nginx/error.log 
+   67  sudo vi /etc/nginx/nginx.conf 
+   68  sudo systemctl restart nginx
+   69  journalctl -xe
+   70  sudo vi /etc/nginx/nginx.conf 
+   71  sudo systemctl restart nginx
+   72  ls -ltr
+   73  sudo vi /etc/nginx/nginx.conf 
+   74  sudo systemctl restart nginx
+   75  cat /var/log/nginx/error.log 
+   76  sudo vi /etc/nginx/nginx.conf 
+   77  sudo certbot --nginx -n --preferred-challenges http-01 -d silico.org -m daniel@silico.org --agree-tos
+   78  sudo vi /etc/nginx/nginx.conf 
+   79  sudo systemctl restart nginx
+   80  sudo vi /etc/nginx/nginx.conf 
+   81  sudo systemctl restart nginx
+   82  history > history
