@@ -293,7 +293,8 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+  font-family: 'Muli', sans-serif;
+  margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
@@ -316,6 +317,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
+        font-family: 'Muli', sans-serif;
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
