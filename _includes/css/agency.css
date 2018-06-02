@@ -207,7 +207,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
@@ -295,7 +295,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   font-family: 'Muli', sans-serif;
   margin-bottom: 25px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
