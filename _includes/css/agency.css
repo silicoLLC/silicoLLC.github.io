@@ -52,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
 }
@@ -319,7 +319,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         font-family: 'Muli', sans-serif;
         margin-bottom: 50px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
@@ -693,28 +693,28 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
